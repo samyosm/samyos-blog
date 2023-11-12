@@ -11,11 +11,11 @@ export const Header = (props: HeaderProps) => {
         </HeaderItem>
       </ul>
       <nav>
-        <ul className="flex gap-8">
-          <HeaderItem href="/articles">Articles</HeaderItem>
+        <ul className="gap-8 hidden md:flex">
+          <HeaderItem href="/posts">Posts</HeaderItem>
           <HeaderItem href="/news">News</HeaderItem>
-          <HeaderItem href="/about">About</HeaderItem>
-          <HeaderItem href="/authors">Authors</HeaderItem>
+          {/* <HeaderItem href="/about">About</HeaderItem> */}
+          {/* <HeaderItem href="/author">Author</HeaderItem> */}
         </ul>
       </nav>
     </header>
